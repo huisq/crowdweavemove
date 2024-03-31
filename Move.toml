@@ -1,0 +1,12 @@
+[package]
+name = "crowdweave"
+version = "1.0.5"
+upgrade_policy = "compatible"
+
+[addresses]
+deployer = "0x4ecce96fbd58903a8db2ce9548024459fdf2e70e5d8d83b93a32de1cf0f8d922"
+raiser = "0xf641ca6c0f2f03b7f3123398c732743d8f1632a6305434dfcbfe7b4abe0d416e"
+treasury = "0x4ecce96fbd58903a8db2ce9548024459fdf2e70e5d8d83b93a32de1cf0f8d922"
+
+[dependencies]
+AptosTokenObjects = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-token-objects/", rev = "main" }
